@@ -1,0 +1,312 @@
+body {
+  background-color: #fff;
+  font-family:'Work Sans', sans-serif;
+  font-size:15px;
+  letter-spacing:.05em;
+  color:#151F47;
+  box-sizing: border-box;
+}
+
+#statusbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.container{
+  padding: 9.5em 1em 1em 1em;
+  box-sizing: border-box;
+}
+
+.busline{
+  height:2.5em;
+}
+.buslinedelay{
+  height:3.5em;
+}
+.OOS{
+  height:2em;
+}
+
+.businfo{
+  text-align: left;
+  width:65%;
+  vertical-align: middle;
+  float: left;
+}
+.fullw{
+  width: 100%;
+}
+/* ------- ICONS -------*/
+.icn{
+  margin-right: .5em;
+  height: 1.5em;
+}
+
+.delay{
+  height: 1.25em;
+}
+
+.icnsml{
+  margin-right: .5em;
+  height:1em;
+}
+
+.goIcnSml{
+  margin-right: .05em;
+  height:1em;
+}
+.icnbg{
+  height: 2em;
+}
+/* -- Back Icon -- */
+.back{
+  width:2em;
+  margin:2.25em 0;
+  float:left;
+}
+
+.back-arrow{
+  height:1.5em;
+}
+
+/* -- Delay -- */
+
+
+
+/* -- Walk/bike -- */
+
+/* ------- Buttons ------- */
+/*.go{
+  background-color: #94D04F;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  margin:.5em;
+  padding: 8px 12px;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+}*/
+
+/* ------- General spacing ------- */
+
+/*.tnySpaceB{
+  padding-bottom: .2em;
+}*/
+.smallSpace{
+  margin-top: .5em;
+}
+.spaceLft{
+  margin-left: 1em;
+}
+
+/*.medSpace{
+  margin-right: 1.2em;
+}*/
+.top{
+  margin-top: .8em;
+}
+
+.spaceDlyIcn{
+  margin-top: .7em;
+}
+
+.nudge{
+  padding-top:.15em;
+}
+
+.OOSspace{
+  margin-top: .5em;
+}
+/* ------- Float ------- */
+.left{
+  float:left;
+}
+.right{
+  float:right;
+}
+/*.right{
+  float: right;
+    right: 0px;
+    padding: 10px;
+}*/
+.leftlst{
+  float:left;
+  width:50%;
+  /*width:12em;*/
+  margin-right: 1em;
+}
+.rightlst{
+  float:right;
+  width:25%;
+  /*width:4.5em;*/
+  text-align: right;
+}
+/* ------- top info box ------- */
+
+
+.box{
+  box-shadow: 0 .2em .2em #f0f0f0;
+  margin-top:1.25em;
+  padding:0 4% 2% 4%;
+  width:92%;
+  position: fixed;
+    top: 0px;
+  display: block;
+  background-color: white;
+}
+
+/*#search-info{
+  width:90%;
+  float: left;
+}*/
+
+li{
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+
+
+/* ------- Text Styles ------- */
+
+.subhead{
+  height:1em;
+  font-weight: 600;
+}
+
+
+.label{
+  font-size: 1.05em;
+  font-weight: 300;
+}
+
+/*.to{
+  font-size: 1.6em;
+  font-weight: 300;
+  margin-top: .5em;
+}*/
+
+#stopinfo{
+  color: #151f47;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+/*#searched{
+  color:#26D0E6;
+  font-size: 1.7em;
+  font-weight: 600;
+  margin-top: .5em;
+}*/
+
+/*
+#from{
+  font-size: 1.3em;
+  font-weight: 300;
+}*/
+
+.yourLoc{
+  font-weight: 500;
+  font-size: 1.05em;
+
+}
+
+.freq{
+  font-size: .8em;
+  font-weight: 300;
+  padding-left: .35em;
+  margin-top: .4em;
+
+}
+
+.eta{
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-top: .5em;
+}
+
+.etaDelay{
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-top: 1em;
+}
+
+.etaOOS{
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-top: .35em;
+}
+/*.estTime{
+  font-weight: 600;
+  font-size: 1.3em;
+}*/
+
+/*#search-filters{
+  margin-top: 1.2em;
+  font-size: 1em;
+  font-weight: 400;
+}*/
+
+/*.line{
+  color:#979797;
+  font-size:1.2em;
+}*/
+
+
+/* ------- Gradients ------- */
+.grad {
+    margin:.5em;
+    height: 1px;
+    width:90%;
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(226,226,226,1), rgba(0,0,0,0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgba(0,0,0,0), rgba(226,226,226,1), rgba(0,0,0,0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgba(0,0,0,0), rgba(226,226,226,1), rgba(0,0,0,0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgba(0,0,0,0), rgba(226,226,226,1), rgba(0,0,0,0)); /* Standard syntax (must be last) */
+}
+.grad1 {
+    margin:1em;
+    height: 1px;
+    width:90%;
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(226,226,226,1), rgba(0,0,0,0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgba(0,0,0,0), rgba(226,226,226,1), rgba(0,0,0,0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgba(0,0,0,0), rgba(226,226,226,1), rgba(0,0,0,0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgba(0,0,0,0), rgba(226,226,226,1), rgba(0,0,0,0)); /* Standard syntax (must be last) */
+}
+.grad2 {
+    margin:1em;
+    height: 1em;
+    width:90%;
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(226,226,226,1), rgba(0,0,0,0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgba(0,0,0,0), rgba(226,226,226,1), rgba(0,0,0,0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgba(0,0,0,0), rgba(226,226,226,1), rgba(0,0,0,0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgba(0,0,0,0), rgba(226,226,226,1), rgba(0,0,0,0)); /* Standard syntax (must be last) */
+}
+
+@media screen and (max-width: 320px) {
+  .rightlst{
+    width:23%;
+  }
+  .etaOOS{
+    font-size: 1em;
+    margin-top: .5em;
+  }
+  .eta{
+    font-size: 1em;
+    margin-top: .6em;
+  }
+  .businfo{
+    width:60%;
+  }
+  .freq{
+    font-size: .7em;
+    padding-left: .6em;
+  }
+  #stopinfo{
+    font-size: 1.2em;
+  }
+}
