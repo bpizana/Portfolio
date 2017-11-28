@@ -486,13 +486,13 @@ setInterval(arrival, 1000); // Repeat every 5000 milliseconds (5 sec)
 */
 
 /*----------  CLOCK   change eat to nav-time & BusArrival to currentT----------*/
-//var BusArrival = document.getElementById("EAT") ;
-//const today = new Date();
+// var time = document.getElementById("time") ;
+// const today = new Date();
 // if (today.getHours() > 5  && today.getHours() < 20) { //between 6 AM and 9:00 PM
 //   var h = (today.getHours() >= 12) ? today.getHours()-12 : today.getHours();
 //   var m = (today.getMinutes() < 10) ? "0" + today.getMinutes() : today.getMinutes();
 //   var ampm = (today.getHours() >= 12) ? "PM" : "AM";
 //
-//   return BusArrival.innerHTML = h + ":" + m + " " + ampm;
+//   return time.innerHTML = h + ":" + m + " " + ampm;
 //
 // }
