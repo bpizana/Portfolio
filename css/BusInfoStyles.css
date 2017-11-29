@@ -1,0 +1,152 @@
+.busnumber{
+  width:70%;
+  float:left;
+  display: flex;
+}
+  .bus{
+    font-size: 1.5em;
+    font-weight: 300;
+    padding-right:.2em;
+  }
+  .number{
+    font-size: 1.5em;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height:100%;
+  }
+.cost{
+  font-size: 1.3em;
+  font-weight: 300;
+}
+.info{
+  display: inline-block;
+  line-height: 1.6em;
+}
+.big{
+  font-size: 1.3em;
+}
+.SML{
+  font-size: .8em;
+}
+.flex{
+  display: flex;
+}
+.inactive{
+  color:#B2B2B2;
+
+}
+.busline2{
+  display: flex;
+}
+.busstop{
+  text-align: left;
+  width:80%;
+  float: left;
+}
+a.active p.lightBtn{
+  font-size: 1em;
+  font-weight: 600;
+  color: #D8D8D8;
+  padding:.5em 0 ;
+}
+a.active h3.Stop{
+    width:64%;
+    float: left;
+}
+a.active p.eta{
+  position: relative;
+    left:10%;
+}
+a.active p.selected{
+  font-weight: 600;
+  color: #26CFE6;
+}
+a.active h3{
+  width:100%;
+  font-size: 1.3em;
+  font-weight: 600;
+  color:#151F47;
+}
+a.active p{
+  color:#151F47;
+}
+
+a.active div.busstop{
+  position: relative;
+    left:-10%;
+}
+
+.timelist{
+  margin-top: 1em;
+}
+ul.timelist li{
+  margin:0 .2em;
+}
+
+/* ---------- SHAPES ----------*/
+.circle {
+  height: 16px;
+  width: 16px;
+  background-color: #29A9CF;
+  border-radius: 50%;
+  position: relative;
+    left:-21px;
+    top:-4px;
+    z-index: inherit;
+  border: 4px solid white;
+}
+.rectangle {
+  height: 70px;
+  width: 18px;
+  background-color: #29A9CF;
+}
+.line {
+  height: 1em;
+  width: 1px;
+  background-color: #b2b2b2;
+}
+a.passed span.rectangle {
+  height:70px;
+  width: 18px;
+  background-color: #B2B2B2;
+}
+a.passed span.circle {
+  height: 16px;
+  width: 16px;
+  background-color: #b2b2b2;
+  border-radius: 50%;
+  position: relative;
+    left:-21px;
+    top:-4px;
+  border: 4px solid white;
+}
+
+a.active span.circle{
+  background-color: #26CFE6;
+  width: 17px;
+}
+a.active span.rectangle{
+  height: 200px;
+  width: 18px;
+  background-color: #29A9CF;
+
+}
+a.active button.inactive{
+  background-color: white;
+  color:#b2b2b2;
+}
+.last{
+  position: relative;
+    left:-3px;
+    top:-4px;
+    z-index: inherit;
+}
+.approach{
+  height: 3em;
+  float:left;
+  position: relative;
+    left:-50px;
+    top:-50px;
+}
