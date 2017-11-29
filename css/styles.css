@@ -110,20 +110,7 @@ a{
 
 /* -- Walk/bike -- */
 
-/* ------- Buttons ------- */
-.go{
-  background-color: #94D04F;
-  border: none;
-  border-radius: 12px;
-  color: white;
-  margin:.5em;
-  padding: 8px 12px;
-  text-align: center;
-  vertical-align: middle;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.05em;
-}
+
 
 /* ------- General spacing ------- */
 
