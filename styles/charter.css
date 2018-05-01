@@ -1,12 +1,12 @@
 body{
   background-color: #F9F9F9;
 }
-header.main{
+header.main {
   background-image: url(../images/charter/large-charter-3.png);
-  background-size: cover;
-  background-repeat:none;
-  background-position: center;
-  height:800px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  height:940px;
   width:100%;
   max-width: none;
 }
@@ -36,6 +36,15 @@ header .label{color:white; }
 }
 .design-role, .colored h4, .colored h3, .colored h2, .colored p{
   color:white;
+}
+.large-third-2{
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  width:24%;
+}
+.small-third {
+    width: 20%;
 }
 
 .box {
@@ -100,6 +109,9 @@ header .label{color:white; }
 .info-snippet{
   display: inline-block;
 }
+.quarter .info-snippet p.caseStudy-text{
+  font-size: 16px;
+}
 
 .subhead{
   color: #46b7e5;
@@ -139,7 +151,27 @@ header .label{color:white; }
 }
 
 /*@media screen and (max-width: 1050px) {*/
+@media screen and (max-width: 1400px) {
+  header.main {
+    height: 790px;
+  }
+  .iteration-info .quarter {
+    width: 34%;
+    padding-top: 15px;
+  }
+  .course-info {
+      width: 65%;
+      display: inline-block;
+  }
+
+}
+
+
+
 @media screen and (max-width: 1300px) {
+  header.main {
+    height: 700px;
+  }
   .info-snippet {
     display: inline-block;
     width: 45%;
@@ -159,7 +191,18 @@ header .label{color:white; }
   section.course-info{
     margin-bottom: 0;
   }
+  .large-third{
+    width:39%;
+  }
+  .large-third-2{
+    width:26%;
+  }
+}
 
+@media screen and (max-width: 1080px) {
+  .large-third-2 .left, .large-third-2 .right{
+    float:none;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -171,10 +214,10 @@ header .label{color:white; }
 
   header.main{
     background-image: url(../images/charter/tall-charter.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat:no-repeat;
-    background-position: center;
-    height:800px;
+    background-position: top;
+    height:790px;
     width:100%;
     max-width: none;
   }
@@ -282,12 +325,29 @@ header .label{color:white; }
     margin-top: 80px;
     width:20%;
   }
+
+  .iteration-info .off{
+    display: none;
+  }
   .main-charter {
     background-image: url(../images/charter/bg-bottom-2.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
     padding: 20px 7%;
+  }
+  .info-snippet{
+         margin:10px 0;
+  }
+  .number-oval {
+    background-color: unset;
+    width: unset;
+    height: unset;
+    border-radius: 50%;
+  }
+  .number-oval p{
+    color:black;
+    line-height: unset;
   }
   .num-list {
     font-family: 'PaulGrotesk-regular';
@@ -327,6 +387,9 @@ header .label{color:white; }
     padding: 0px 10%;
   }
 
+  .large-third-2 {
+      width: 100%;
+  }
   .num-list {
     letter-spacing: .02rem;
     line-height: 23px;
