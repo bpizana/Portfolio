@@ -1,44 +1,208 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Portfolio | Brianna Pizana</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio | Bri Pizana</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90954733-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-90954733-2');
+    </script>
+
+    <!-- reset -->
+    <link rel="stylesheet" href="styles/reset.css">
+    <!-- Font Awesome Icons -->
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <!-- fonts -->
+    <link rel="stylesheet" type="text/css" href="styles/MyFontsWebfontsKit.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- <script  type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
   </head>
   <body>
-    <header>
-      <h1>Bri Pizana</h1>
-      <p class="slogan">UX Designer in the SF Bay Area</p>
+    <nav class="main">
+      <a href="index.html">
+        <img class="none off mark"src="images/Common/mark.png" alt="Bri Piza&ntilde;a logo"/>
+        <img class="off full-logo" id="logo" src="images/main nav/logo-bri.png" alt="Bri Piza&ntilde;a logo"/>
+      </a>      <ul class="off">
+        <li class="off"><a href="index.html">My Work</a></li>
+        <li class="off"><a href="about.html">About</a></li>
+      </ul>
+      <div class="fixed none">
+      <div id="menuToggle">
+        <!--  A hidden checkbox is used as click reciever,
+        so i can use the :checked selector.  -->
+        <input type="checkbox" />
+
+        <!--  Some spans for the hamburger.  -->
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <ul id="menu">
+          <li><a href="index.html">My Work</a></li>
+          <li><a href="about.html">About</a></li>
+      </div>
+    </div>
+    </nav>
+    <header class="main load-smooth">
+      <img class="logo" src="images/homepage/mark.png" alt="project screenshot"/>
+      <h1 class="opening">Hi! I'm Bri,</h1>
+      <p class="slogan opening">A user experience designer based in the San Francisco Bay Area</p>
+      <p class="desc opening">Take a look around if you like what you see, feel free to contact me on <a href="https://www.linkedin.com/in/bpizana/" target="_blank">LinkedIn</a>, download my <a href="/images/resume-BriPizana.pdf" download>resume</a>, or set up a coffee date via <a href="mailto:bripiz@gmail.com">email</a>.</p>
     </header>
-    <main>
-       <div class="project featured-project">
-         <img src="http://lorempixel.com/350/260/abstract/placeholder-1" alt="project screenshot"/>
-         <h2>Featured Project Name</h2>
-         <p>Project description text</p>
-       </div>
-       <div class="project">
-         <img src="http://lorempixel.com/350/260/abstract/placeholder-2" alt="project screenshot"/>
-         <h2>Project Name</h2>
-         <p>Project description text</p>
-       </div>
-       <div class="project">
-         <img src="http://lorempixel.com/350/260/abstract/placeholder-3" alt="project screenshot"/>
-         <h2>Project Name</h2>
-         <p>Project description text</p>
-       </div>
-       <div class="project">
-         <img src="http://lorempixel.com/350/260/abstract/placeholder-4" alt="project screenshot"/>
-         <h2>Project Name</h2>
-         <p>Project description text</p>
-       </div>
+    <main class="load-smooth">
+      <h3 class="home-page">Featured Projects</h3>
+      <!-- Charter  -->
+        <section class="feat-project load-smooth">
+           <div class="feat-bg-charter">
+             <a href="charter.html">
+               <img class="feat-logo" src="images/charter/logo.png"/>
+               <img class="screens-for-feat-charter" src="images/charter/charter.png" alt="project screenshot"/>
+             </a>
+            </div>
+            <article class="feat-project-text load-smooth">
+               <h2>Charter</h2>
+               <p class="label">User Experience Design &amp; Branding</p>
+               <p class="desc"> People don't need to spend thousands of dollars while they are figuring out what they want to do with their lives, that can happen when they are confident that they have found the right path for them. Use Charter to explore your future and chart your course.</p>
+            </article>
+            <a class="read-more" href="charter.html">Case Study <i class="fas fa-caret-right"></i></a>
+        </section>
+
+    <!-- Maslow  -->
+      <section class="feat-project load-smooth">
+         <div class="feat-bg-maslow">
+           <a href="Maslow.html">
+             <img class="feat-logo" src="images/maslow/logo-small.png"/>
+             <img class="screens-for-feat-maslow" src="images/maslow/hero-2.png" alt="project screenshot"/>
+           </a>
+          </div>
+          <article class="feat-project-text load-smooth">
+             <h2>Maslow</h2>
+             <p class="label">User Experience Design &amp; Branding</p>
+             <p class="desc">Maslow’s is an application that will simplify social media management for Small business owners and Influencers. Maslow does this by providing a centralized interface to all their social media networks and analytics for their scheduled posts, audience engagement, and advertising management.</p>
+          </article>
+          <a class="read-more" href="Maslow.html">Case Study <i class="fas fa-caret-right"></i></a>
+      </section>
+
+      <section class="feat-project load-smooth">
+        <div class="feat-bg">
+          <a href="Project.html">
+            <img class="feat-logo" src="images/space/logo-light-clear.png"/>
+            <img class="screens-for-feat" src="images/homepage/spaceFeat.png" alt="project screenshot"/>
+          </a>
+         </div>
+         <article class="feat-project-text load-smooth">
+            <h2 >SPACE</h2>
+            <p class="label">User Experience Design &amp; Branding</p>
+            <p class="desc">Cloud storage is a tool used by almost everyone in both their personal and professional lives. So the goal of Space is to provide a user experience that fits the needs of users no matter what their use case is.</p>
+         </article>
+         <a class="read-more" href="Project.html">Case Study <i class="fas fa-caret-right"></i></a>
+       </section>
+
+
+      <section class="not-home">
+        <h3>Other Projects</h3>
+        <div class="other-projects">
+          <div class="project">
+            <div>
+              <img src="images/Common/placeholderimage.png" alt="project screenshot"/>
+            </div>
+            <p class="project-name">Comming Soon!</p>
+            <p class="desc"> </p>
+            <a class="read-more" href="#">Read More <i class="fas fa-caret-right"></i></a>
+          </div>
+
+          <div class="project middle-project">
+            <div>
+              <img src="images/Common/placeholderimage.png" alt="project screenshot"/>
+            </div>
+            <p class="project-name">Coming Soon!</p>
+            <p class="desc"> </p>
+            <a class="read-more" href="#">Read More <i class="fas fa-caret-right"></i></a>
+          </div>
+
+          <div class="project">
+            <div>
+              <img src="images/Common/placeholderimage.png" alt="project screenshot"/>
+            </div >
+            <p class="project-name">Coming Soon!</p>
+            <p class="desc"> </p>
+            <a class="read-more" href="#">
+              Read More
+              <i class="fas fa-caret-right"></i>
+            </a>
+          </div>
+        </div>
+
+
+      </section>
+
      </main>
-     <footer>
-       <ul>
-         <li> <a href="https://www.linkedin.com/in/bpizana/">LinkedIn</a> </li>
-         <li> <a href="https://github.com/bpizana">GitHub</a> </li>
-         <li> <a href="https://www.facebook.com/brianna.pizana">Facebook</a> </li>
-         <li> <a href="https://twitter.com/brianna_pizana">Twitter</a> </li>
-         <li> <a href="mailto:bripiz@gmail.com">Email</a> </li>
-       </ul>
-     </footer>
+
+     <footer class="load-smooth">
+       <div class="main">
+        <nav>
+          <ul>
+            <li><a href="index.html">My Work</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+
+        <p class="middle-project">Like my work? Lets connect!</p>
+
+        <ul class="social-media">
+          <li>
+            <a href="https://github.com/bpizana" target="_blank">
+              <i class="off" class="fab fa-github-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/brianna_pizana" target="_blank">
+              <i class="off" class="fab fa-twitter-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/bpizana/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/b_pizana/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:bripiz@gmail.com" target="_blank">
+              <i class="far fa-envelope"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://dribbble.com/Bpizana" target="_blank">
+              <i class="off" class="fab fa-dribbble-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/brianna.pizana" target="_blank">
+              <i class="off"  class="fab fa-facebook-square"></i>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </footer>
+    <script  type='text/javascript' src="js/scripts.js"></script>
+    <script  type='text/javascript' src="js/main.js"></script>
   </body>
+
+
 </html>

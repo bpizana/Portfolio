@@ -1,0 +1,412 @@
+body{
+  background-color: #F9F9F9;
+}
+header.main{
+  background-image: url(../images/charter/large-charter-3.png);
+  background-size: cover;
+  background-repeat:none;
+  background-position: center;
+  height:800px;
+  width:100%;
+  max-width: none;
+}
+ nav.main{
+   position: absolute;
+   z-index: 1;
+   width: 66%;
+   padding:0 17%;
+   /*background-color: rgba(255,255,255,.1)*/
+ }
+
+ nav li a{
+   color:white;
+ }
+
+img.feat-logo-project{
+  margin-top: 90px;
+}
+header .label{color:white; }
+
+.colored{
+  background-image: url(../images/charter/colored.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.10);
+}
+.design-role, .colored h4, .colored h3, .colored h2, .colored p{
+  color:white;
+}
+
+.box {
+  background: #FFFFFF;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.10);
+  border-radius: 30px;
+  padding: 30px;
+  margin:40px 0;
+}
+.box-bottom {
+  background: #FFFFFF;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.10);
+  padding: 30px;
+  border-radius: 0 0 30px 30px;
+  margin:0 0 40px 0;
+}
+
+.col-2-desktop{
+  position: unset;
+}
+
+.margin-bottom{
+  margin-bottom: 50px;
+}
+
+.sub-label {
+    color: #46b7e5;
+    font-family: 'PaulGrotesk-SemiBold';
+    font-size: 16px;
+    letter-spacing: 0.05rem;
+    margin-top: 4px;
+    margin-bottom: 0;
+    padding-left: 16px;
+}
+
+.iteration-info .quarter{
+  width:24%;
+  padding-top: 15px;
+}
+.course-info{
+  width:75%;
+  display: inline-block;
+}
+
+.number-oval{
+  background-color:#FF4242;
+  width:30px;
+  height:30px;
+  border-radius: 50%;
+}
+.number-oval p {
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  font-family: 'PaulGrotesk-bold';
+}
+.iteration-info .caseStudy-text{
+  width:86%;
+  float:right;
+}
+
+.info-snippet{
+  display: inline-block;
+}
+
+.subhead{
+  color: #46b7e5;
+}
+
+.main-charter {
+  background-image: url(../images/charter/bg-bottom.png);
+  background-size: cover;
+  background-position: top;
+  padding: 20px 13%;
+  max-width: unset;
+  margin: 0 auto;
+}
+
+.main-charter h3,.main-charter p{
+  color:white;
+}
+.main-charter .box p, .main-charter .box h3{
+  color:#3F3B50;
+}
+
+.final-product .prototypes a{
+  color:white;
+}
+.quote{
+  color:#42bcef;
+}
+
+.quote li {
+  padding-bottom: 15px;
+  color:#42bcef;
+  line-height: 21px;
+  letter-spacing: 1px;
+}
+.vertical-line {
+  border-left: 2px solid #40bdef;
+}
+
+/*@media screen and (max-width: 1050px) {*/
+@media screen and (max-width: 1300px) {
+  .info-snippet {
+    display: inline-block;
+    width: 45%;
+    margin: 0 15px;
+    vertical-align: top;
+  }
+  .iteration-info .quarter{
+    width:80%;
+    margin-left: 10%;
+  }
+  .quarter{
+    display: block;
+  }
+  .course-info{
+    width: 100%;
+  }
+  section.course-info{
+    margin-bottom: 0;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  main {
+    width: 80%;
+  }
+
+  header .label{ font-size: 16px;}
+
+  header.main{
+    background-image: url(../images/charter/tall-charter.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    height:800px;
+    width:100%;
+    max-width: none;
+  }
+  h1{
+    font-size: 55px;
+  }
+  .label{
+    font-size: 10px;
+  }
+  .small-third .left, .small-third .right{
+    float:none;
+  }
+  .iteration-info .quarter{
+    display: block;
+    width:80%;
+    margin-left: 10%;
+  }
+  .quarter{
+    display: block;
+  }
+  .course-info{
+    width: 100%;
+  }
+  section.course-info{
+    margin-bottom: 0;
+  }
+  .user-research {
+    margin-left: 9%;
+  }
+  .half  .persona-l p, .half .persona-r p{
+    padding-left:0;
+  }
+  section {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .top-bottom {
+    margin: 10px 0;
+  }
+  .iteration-info .caseStudy-text {
+    width: 86%;
+     float: none;
+  }
+  .large-textbox {
+    margin: 0 10%;
+    width: 80%;
+  }
+  .number-oval {
+    margin: 0 15px 0 0;
+  }
+}
+@media screen and (max-width: 950px) {
+  .iteration-info .quarter{
+    display: block;
+    width:80%;
+    margin-left: 10%;
+  }
+  .quarter{
+    display: block;
+  }
+  .course-info{
+    width: 100%;
+  }
+  section.course-info{
+    margin-bottom: 0;
+  }
+  .info-snippet{
+    width:100%;
+  }
+  .mood-board {
+    background-image: url(../images/charter/moodboard.png);
+    background-position: center;
+    background-size: auto 320px;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .flows.off{
+    display: none;
+  }
+  main {
+    padding: 0px 5%;
+    width: 90%;
+  }
+  h3{
+    line-height: 43px;
+    font-size: 35px;
+    letter-spacing: .01rem;
+    margin: 10px 0 10px 0;
+    padding-bottom: 10px;
+  }
+
+  header.main{
+    background-image: url(../images/charter/med-charter-3.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: top;
+    height:515px;
+    width:100%;
+    max-width: none;
+  }
+
+  img.feat-logo-project {
+    margin-top: 80px;
+    width:20%;
+  }
+  .main-charter {
+    background-image: url(../images/charter/bg-bottom-2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 20px 7%;
+  }
+  .num-list {
+    font-family: 'PaulGrotesk-regular';
+    letter-spacing: .04rem;
+    line-height: 23px;
+    font-size: 15px;
+  }
+
+  .quote li {
+      line-height: 18px;
+      font-size: 14px;
+  }
+  .percent-desc {
+    font-family: 'PaulGrotesk-medium';
+    font-size: 14px;
+    line-height: 19px;
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 414px) {
+  header.main{
+    background-image: url(../images/charter/small-charter.png);
+    height: 455px;
+  }
+  h3{
+    letter-spacing: .08rem;
+  }
+
+  img.feat-logo-project {
+    margin-top: 80px;
+    width:50%;
+  }
+  nav.main {
+    width: 60%;
+    padding: 0px 10%;
+  }
+
+  .num-list {
+    letter-spacing: .02rem;
+    line-height: 23px;
+    font-size: 14px;
+  }
+  .user-research {
+    margin-left: 0%;
+  }
+
+  .percent-desc {
+    width: 95%;
+  }
+
+  a{
+    font-size: 16px;
+  }
+  a.textbox{
+    margin-top: 15px;
+  }
+  .padding-top {
+    margin-top: 0px;
+  }
+  .iteration-info .quarter {
+    width: 100%;
+    margin-left: 5%;
+  }
+  .iteration-info .caseStudy-text {
+    line-height: 23px;
+  }
+  .main-charter {
+    background-image: url(../images/charter/bg-bottom-2.png);
+    background-size: cover;
+    background-color: #57B9E6;
+    padding: 20px 4%;
+  }
+  .large-textbox {
+    margin: 0px 1%;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 375px) {
+  nav.main {
+    padding: 0px 5%;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .number-oval p {
+    line-height: 22px;
+    font-family: 'PaulGrotesk-medium';
+    font-size: 14px;
+  }
+  .number-oval{
+    width:20px;
+    height:20px;
+  }
+  .box {
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #menuToggle {
+      display: block;
+      float: right;
+      position: relative;
+      right: -250px;
+      top: -33px;
+    }
+    nav.main {
+    padding: 0px 4%;
+  }
+  img.feat-logo-project {
+    margin-top: 50px;
+  }
+  header.main {
+      height: 346px;
+  }
+  .box {
+    padding: 20px;
+  }
+
+}
