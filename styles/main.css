@@ -280,7 +280,7 @@
   }
 
   .feat-project {
-    background-color:#F9F9F9;
+    /*background-color:#F9F9F9;*/
     padding-bottom: 40px;
     border-radius: 5px;
   }
@@ -313,7 +313,7 @@
   /* Charter */
   /**********/
   .feat-bg-charter {
-    background-color:#F9F9F9;
+    /*background-color:#F9F9F9;*/
     margin-bottom: 20px;
     background-size:cover;
     background-position: center;
