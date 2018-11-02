@@ -84,6 +84,7 @@ header .label{color:white; }
   width:24%;
   padding-top: 15px;
 }
+
 .course-info{
   width:75%;
   display: inline-block;
@@ -111,6 +112,7 @@ header .label{color:white; }
 }
 .quarter .info-snippet p.caseStudy-text{
   font-size: 16px;
+  line-height: 23px;
 }
 
 .subhead{
@@ -144,7 +146,6 @@ header .label{color:white; }
   padding-bottom: 15px;
   color:#42bcef;
   line-height: 21px;
-  letter-spacing: 1px;
 }
 .vertical-line {
   border-left: 2px solid #40bdef;
@@ -357,7 +358,6 @@ header .label{color:white; }
   }
 
   .quote li {
-      line-height: 18px;
       font-size: 14px;
   }
   .percent-desc {

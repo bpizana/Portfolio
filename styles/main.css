@@ -2,6 +2,11 @@
   color:#3F3B50;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .load-smooth{ display: none;}
 
 
@@ -98,7 +103,7 @@
   /* link typography */
   a {
     color:#F07E81;
-    font-family: 'PaulGroteskSoft-Light';
+    font-family: 'PaulGroteskSoft-Regular';
     font-size: 20px;
     text-decoration: none;
   }
@@ -123,10 +128,10 @@
   }
 
   h3{
-    font-family: 'PaulGroteskSoft-Bold';
-    font-size:45px ;
+    font-family: 'PaulGrotesk-Bold';
+    font-size:40px ;
     letter-spacing: .01rem;
-    margin: 30px 0 15px 0;
+    margin: 50px 0 15px 0;
   }
 
   h4{
@@ -173,15 +178,15 @@
   /* common text-styles typography*/
   .caseStudy-text {
     font-family: 'PaulGrotesk-regular';
-    font-size: 18px;
-    letter-spacing: .05rem;
-    line-height: 25px;
+    font-size: 20px;
+    letter-spacing: .01rem;
+    line-height: 35px;
   }
 
   .desc{
     font-family: 'PaulGrotesk-Light';
     font-size: 22px;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.025rem;
     line-height: 33px;
   }
 
@@ -189,7 +194,7 @@
     color: #9BA0B3;
     font-family: 'PaulGrotesk-SemiBold';
     font-size: 1rem;
-    letter-spacing: .1rem;
+    letter-spacing: .07rem;
     margin-top: 7px;
   }
 
@@ -219,7 +224,7 @@
   }
 
   .feat-project-text > h2{
-    letter-spacing: .5rem;
+    letter-spacing: .3rem;
     margin-bottom: 10px;
     text-align: center;
   }
@@ -233,6 +238,7 @@
     margin: 0 25% 20px 25%;
     text-align: justify;
     width:50%;
+    font-family: 'PaulGroteskSoft-Regular';
   }
 
   .feat-project > .read-more{
@@ -329,7 +335,7 @@
 
   .caption{
     color:#929192;
-    font-family: 'PaulGroteskSoft-UltraLight';
+    font-family: 'PaulGroteskSoft-Light';
   }
 
   /***-----------------------------------------------------------***/
@@ -423,7 +429,7 @@
   .vertical-line-lg, .sm-vertical-line, .vertical-line {
     border-left:  2px solid #9BA0B3;
     padding: 0 4%;
-    margin-left: 4%;
+    /*margin-left: 4%;*/
   }
 
 
@@ -432,27 +438,33 @@
     color: #9BA0B3;
     font-family: 'PaulGrotesk-SemiBold';
     font-size: 1rem;
-    letter-spacing: .05rem;
+    letter-spacing: .01rem;
     line-height: 25px;
     margin: 30px 0;
   }
+
+
 
   /* header */
   .center{
   text-align: center;
   }
 
-  .light{
-    font-family: 'PaulGrotesk-Light';
+  .regular{
+    font-family: 'PaulGrotesk-Regular';
     padding-top:10px;
   }
 
 
   /* challenges insights and solutions */
   .num-list {
-    font-family: 'PaulGrotesk-SemiBold';
+    font-family: 'PaulGrotesk-Medium';
     letter-spacing: .04rem;
-    line-height: 25px;
+    line-height: 34px;
+    font-size: 20px;
+  }
+  .num-list li{
+    padding:5px 0;
   }
 
   /* Role deliverables and tools */
@@ -499,6 +511,13 @@
   .persona-l{
     padding: 0 25px 0 23%;
   }
+
+  .persona-l .caseStudy-text, .persona-r .caseStudy-text {
+    font-family: 'PaulGrotesk-regular';
+    font-size: 19px;
+    letter-spacing: .01rem;
+    line-height: 30px;
+}
 
   .persona-r{
     padding: 0 23% 0 25px;
@@ -609,9 +628,14 @@
     padding-top: 100px;
   }
 
+  .feat-right{
+    margin-left: 5%;
+  }
+
   .feat-2 {
     position: relative;
-    top:-250px;
+    /*top:-250px;*/
+    top:160px;
   }
 
   .feat-3{
@@ -706,6 +730,36 @@
       color:#F07E81;
     }
 
+  #about section>section{
+    margin-top:10px;
+    margin-bottom:0px;
+  }
+
+  #about .label{
+    letter-spacing: .025rem;
+    line-height: 1.5rem;
+  }
+
+  #about .desc{
+    font-family: 'PaulGrotesk-Regular';
+    font-size: 20px;
+    letter-spacing: 0.025rem;
+    line-height: 33px;
+  }
+
+  #about .pink.top-zero{
+    margin-top:7px;
+  }
+  #about .pink{
+    color:#f37d7c;
+    margin-top:50px;
+    text-transform: uppercase;
+  }
+
+  p.Info-heading{
+    margin-bottom: 0;
+  }
+
   .reviews{
     margin: 50px 10%;
     width:80%;
@@ -715,30 +769,46 @@
     margin-bottom: 50px;
     width:36%;
   }
+  #about .darkbg {
+    background-color: #3F3B50 /*rgba(240,126,129,.50)*/;
+    margin: 0 auto;
+    padding: 50px 20% 100px 16%;
+    /* width: 64%; */
+  }
+
+  #about .darkbg .textbox{
+    width:90%;
+  }
+
+  #about .percent-desc {
+    width:100%;
+  }
 
   .roles {
-    display: inline-block;
-    margin-left:5%;
-    margin-right: 20%;
-    width:45%;
+      display: inline-block;
+      margin-left: 12%;
+      margin-right: 9%;
+      width: 47%;
   }
 
   .roles ul{
     list-style: initial;
-    padding-left:20px;
   }
 
   .roles li{
-    padding: 6px;
+    padding: 6px 6px 6px 0;
   }
 
+  .role-first {
+    margin: 20px 0;
+  }
   .role {
-    margin: 60px 0;
+    margin: 50px 0;
   }
 
   .Info-heading {
-    font-family: 'PaulGrotesk-SemiBold';
-    font-size: 20px;
+    font-family: 'PaulGrotesk-Medium';
+    font-size: 25px;
   }
 
   .sidebar{
@@ -747,7 +817,7 @@
   }
 
   .sidebar li{
-    padding: 4px;
+    padding: 4px 4px 4px 0;
   }
 
   .darkbg{
@@ -759,6 +829,9 @@
 
   .darkbg p, .darkbg h4{
     color:#F3F4FA;
+  }
+  #about .darkbg a{
+    font-family: 'PaulGroteskSoft-Regular';
   }
 
   /***--------------------------***/
@@ -804,11 +877,16 @@
     width: 100%;
   }
 
+  footer .main{
+    width:51%;
+  }
+
   footer > div > nav {
-    display: inline-block;
+    /*display: inline-block;*/
     float:left;
     padding-left: 0;
-    width:25%;
+    /*padding-top:5px;
+    width:25%;*/
   }
 
   footer nav ul {
@@ -818,7 +896,7 @@
   footer nav a {
     color: #9BA0B3;
     font-family: 'PaulGrotesk-SemiBold';
-    font-size: 18px;
+    font-size: 16px;
   }
     footer nav a:hover {
       color:#F07E81;
@@ -836,7 +914,12 @@
   footer p.desc {
     font-family: 'PaulGrotesk-regular';
     line-height: 25px;
-    letter-spacing: .1rem;
+    letter-spacing: .05rem;
+    font-size: 20px;
+  }
+
+  footer h4{
+    margin:30px 0 20px 0;
   }
 
   /* footer call to action*/
@@ -845,10 +928,10 @@
     display: inline-block;
     font-family: 'PaulGrotesk-Regular';
     letter-spacing: .1rem;
-    margin: 0 auto;
-    padding-top: 20px;
-    text-align: center;
-    width:29%;
+    /*margin: 0 auto;*/
+    padding-top: 30px;
+    /*text-align: center;
+    width:29%;*/
   }
 
   /* social media icons*/
@@ -866,18 +949,21 @@
   footer > div > .social-media{
     display: inline-flex;
     float:right;
-    margin-top: 15px;
-    width:25%;
+    margin-top: 24px;
+    width:19%;
   }
 
   .large-footer{
     padding-top: 10px;
-    height:300px;
+    height:250px;
+  }
+  .large-footer a{
+    font-family: 'PaulGroteskSoft-Regular';
   }
 
   .bottom{
     position: relative;
-      bottom: -65px;
+      bottom: 0px;
   }
 
 
@@ -1050,7 +1136,7 @@
   }
 
   h3 {
-      font-family: 'PaulGroteskSoft-Bold';
+      font-family: 'PaulGrotesk-Bold';
       font-size: 40px;
       letter-spacing: 0.01rem;
       line-height: 60px;
@@ -1161,6 +1247,10 @@
     float:none;
   }
 
+  .desc.feat-right{
+    margin-left:10%;
+  }
+
   footer .main{
     width:95%;
     margin: 0 7%;
@@ -1187,6 +1277,17 @@
 /**********************************/
 
 @media screen and (max-width: 950px) {
+
+    .flows.off{
+      display: none;
+    }
+    a {
+      color: #F07E81;
+      font-family: 'PaulGroteskSoft-Regular';
+      font-size: 16px;
+      text-decoration: none;
+      line-height: 23px;
+    }
     header {
       margin:0 10% 50px 10%;
      }
@@ -1270,7 +1371,7 @@
       letter-spacing: .01rem;
       margin: 30px 0 10px 0;
       padding-bottom: 10px;
-
+      line-height: 0px;
     }
 
     h4{
@@ -1383,6 +1484,7 @@
       float: none;
       width:70%;
       margin: 0 auto;
+      padding-bottom: 20px;
     }
 
     /* lines -tablet */
@@ -1394,8 +1496,8 @@
 
     .quote{
       font-size: 15px;
-      letter-spacing: .02rem;
-      line-height: 18px;
+      letter-spacing: .01rem;
+      line-height: 23px;
     }
 
     .quote li {
@@ -1405,8 +1507,9 @@
     /* challenges insights and solutions */
     .num-list {
       font-family: 'PaulGrotesk-Medium';
-      letter-spacing: .04rem;
-      line-height: 20px;
+      letter-spacing: .03rem;
+      line-height: 24px;
+      font-size: 16px;
     }
     .num-list li{
       padding: 5px 0;
@@ -1457,6 +1560,10 @@
     .persona-l p.caseStudy-text, .persona-r p.caseStudy-text{
       font-size: 16px;
       padding: 0;
+    }
+
+    .personas h3{
+      line-height: 30px;
     }
 
     /* compentive analysis */
@@ -1615,6 +1722,12 @@
       }
     }
 
+/*Ipad*/
+@media screen and (max-width: 770px) {
+
+
+}
+
 @media screen and (max-width: 670px) {
 
     h3{
@@ -1702,7 +1815,7 @@
     }
 
     footer a.read-more i{
-      font-size: 16px
+      font-size: 16px;
     }
 
     footer i {
@@ -1983,7 +2096,7 @@
     }
 
     h3{
-      margin: 15px 0 0px 0;
+      margin: 30px 0 0px 0;
     }
 
     .third.mobile-half{
@@ -2018,7 +2131,7 @@
     }
 
     .feat-project > .read-more{
-      margin-left: 5%
+      margin-left: 5%;
     }
 
     .logo {
@@ -2090,17 +2203,42 @@
     }
 
     .section-label, .textbox {
-      width:100%;
+      width:90%;
     }
+
+  .num-list {
+    line-height: 26px;
+    font-size: 16px;
+    letter-spacing: .04rem;
+  }
+
+  .quote li {
+    line-height: 22px;
+  }
+
+  .percent-desc {
+    font-family: 'PaulGrotesk-SemiBold';
+    font-size: 12px;
+    letter-spacing: .02rem;
+    line-height: 18px;
+  }
+  .persona-l .caseStudy-text, .persona-r .caseStudy-text {
+    line-height: 25px;
+  }
+
+  .half .caseStudy-text .persona-r{
+    padding: 0px;
+  }
 
     /* lines */
     .line {
     display: none;
     }
 
-    .vertical-line {
-      margin:15px 0 ;
-    }
+  .vertical-line {
+    margin: 15px 5%;
+    padding:0;
+  }
 
 
     /* end lines */
@@ -2115,7 +2253,7 @@
     }
 
     .user-research{
-      margin-left: 0%;
+      margin-left: 5%;
     }
 
     .user-research h3{
@@ -2127,22 +2265,20 @@
     }
     /* persona */
 
+    .personas{
+      margin:0 5%;
+    }
+
     .persona-l, .persona-r{
       padding:0;
     }
-
-    .half h4, .half p {
-      width: 100%;
-      /* margin: 0 auto; */
-      padding: 10px 0;
-   }
 
     /* compentive analysis */
     /* user flows and user stories */
     /* branding */
     /* color pallete */
-    .color-palette .caseStudy-text,.color-palette .half h4, .fonts .half h4,.fonts .half .caseStudy-text{
-      padding-left:0;
+    .color-palette .caseStudy-text, .color-palette .half h4, .fonts .half h4, .fonts .half .caseStudy-text {
+      padding: 0 0 15px 0;
     }
     /* low fedelity wireframes */
     /* A AND B TESTING  */
@@ -2193,6 +2329,10 @@
     .feat-2 {
       position: unset;
       top:0;
+    }
+
+    .desc.feat-right{
+      margin-left:5%;
     }
 
     /* prototypes */
