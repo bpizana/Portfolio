@@ -761,11 +761,11 @@ html, body {
   }
 
   .reviews{
-    margin: 50px 10%;
-    width:80%;
+    margin: 50px 0%;
+    width:100%;
   }
   .review{
-    height:275px;
+    height:420px;
     margin-bottom: 50px;
     width:36%;
   }
@@ -1106,7 +1106,7 @@ html, body {
   }
 
   .review {
-    height: 305px;
+    height: 385px;
     margin-bottom: 50px;
     width: 41%;
   }
@@ -1330,7 +1330,10 @@ html, body {
       letter-spacing: 0.04rem;
       line-height: 25px;
     }
-
+    #about .darkbg {
+        padding: 30px 10%;
+        width: 80%;
+      }
     .middle-project{
       margin:0 15px;
     }
@@ -1682,6 +1685,25 @@ html, body {
       padding: 4px;
     }
 
+    #about .desc {
+      font-size: 16px;
+    }
+    #about .section-label, .textbox {
+      width: 85%;
+      padding-bottom: 20px;
+    }
+    #about .colored{
+      padding-right:3%;
+      padding-top: 3%;
+    }
+    #about .darkbg .textbox {
+      width: 100%;
+    }
+
+    main#about{
+    width: 90%;
+    }
+
     .darkbg{
       padding: 30px 10%;
       width:80%;
@@ -1926,17 +1948,14 @@ html, body {
       opacity:0;
     }
 
-    #menuToggle{
-      display: block;
-      float: right;
-      position: relative;
-      position: relative;
-        right: -300px;
-        top: -30px;
-        z-index: 2;
-        -webkit-user-select: none;
-        user-select: none;
-    }
+    #menuToggle {
+    display: block;
+    position: fixed;
+    right: 20px;
+    top: 30px;
+    -webkit-user-select: none;
+    user-select: none;
+}
 
     #menuToggle input{
       display: block;
@@ -2046,7 +2065,7 @@ html, body {
      */
     #menuToggle input:checked ~ ul
     {
-      transform: translate(-850px, 0px);
+      transform: translate(-880px, 0px);
     }
 
     /* end menu */
@@ -2111,7 +2130,34 @@ html, body {
       letter-spacing: 0.03rem;
       line-height: 24px;
     }
+    #about .desc {
+      font-family: 'PaulGrotesk-Regular';
+      font-size: 16px;
+      letter-spacing: 0.025rem;
+      line-height: 25px;
+    }
+    #about .darkbg .textbox {
+      width: 100%;
+    }
+    #about .pink {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
 
+    #about .section-label, .textbox {
+        display: block;
+        float: none;
+        width: 70%;
+        margin: 0 auto;
+        padding-bottom: 0px;
+    }
+    #about .mobile-half {
+      display: inline-block;
+      text-align: left;
+      margin-bottom: 30px;
+      margin-top: 10px;
+      width: 48%;
+    }
     .textbox{
       padding-top: 0;
     }
@@ -2431,7 +2477,17 @@ html, body {
 
     .bottom{
       position: relative;
-        bottom: -65px;
+        bottom: 0px;
     }
 
+  }
+  @media screen and (max-width: 360px) {
+    #menuToggle input:checked ~ ul {
+      transform: translate(-845px, 0px);
+    }
+  }
+  @media screen and (max-width: 330px) {
+    #menuToggle input:checked ~ ul {
+      transform: translate(-825px, 0px);
+    }
   }
