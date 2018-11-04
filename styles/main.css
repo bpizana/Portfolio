@@ -369,7 +369,7 @@ html, body {
       }
       .large-third{
         display:inline-block;
-        width:30%;
+        width:35%;
         vertical-align: top;
         margin:0 8% 0 5%;
         text-align: left;
@@ -1216,6 +1216,10 @@ html, body {
 
   .persona-r{
     padding:0 5% 0 25px;
+  }
+
+  .personas .half .caseStudy-text{
+    padding-left: 0;
   }
 
   .sm-vertical-line{
@@ -2240,6 +2244,9 @@ html, body {
     padding:0;
   }
 
+  .vertical-line .quote{
+    margin-left: 30px;
+  }
 
     /* end lines */
     /* challenges insights and solutions */
